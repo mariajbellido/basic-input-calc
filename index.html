@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Calcu & Inputs</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+
+	<main id="container">
+
+		<h1>Calculadora de inputs</h1>
+
+
+		<section class="calc_app">
+
+			<!-- Input para introducir el primer valor -->
+
+			<input type="text" name="first_value" id="first_input" placeholder="Primer número" tabindex="1" autofocus="autofocus">
+
+      <!-- Input para introducir el segundo valor -->
+
+      <input type="text" name="first_value" id="second_input" placeholder="Segundo número" tabindex="2">
+
+
+      <!-- Botones operaciones básicas -->
+      
+          <div id="buttons">
+                <button id="add_button">+</button>
+                <button id="sub_button">-</button>
+                <button id="mult_button">x</button>
+                <button id="div_button">/</button>
+          </div>
+
+
+      <!-- Signo igual / Resolución operación --> 
+
+        <div id="results">
+          <span id="equal_sign">=</span>
+
+          <span id="equal_to">0</span>
+        </div>
+
+
+
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

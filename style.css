@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(to bottom, #fff, #246A73);
+
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+h1::after {
+  content: ' 🔢  ';
+}
+
+#container {
+
+  background-color: #246A73;
+  border-radius: 2vw;
+  padding: 4vw;
+  box-shadow: 10px 10px 59px 0px rgba(0,0,0,0.75);
+  
+}
+
+
+input {
+  font-family: inherit;
+  border: none;
+  font-size: 2rem;
+  border-radius: 1rem;
+  padding: 2vw;
+  width: 100%;
+  background-color: #Fff;
+  outline: none;
+  
+}
+
+#second_input {
+  margin-bottom: 4vw;
+  margin-top: 4vw;
+}
+
+button {
+  background-color: #DDBEA8;
+  font-family: inherit;
+  font-size: 3rem;
+  border: none;
+  font-weight: bold;
+  padding: 2vw;
+  margin: 2vw;
+  border-radius: 1rem;
+  outline: none; 
+
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #F3DFC1;
+  font-weight: bold;
+  
+}
+
+span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  font-weight: bolder;
+  margin: 4vw;
+  padding: 4vw;
+  
+  
+
+}
